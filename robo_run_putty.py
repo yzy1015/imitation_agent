@@ -115,7 +115,7 @@ def imitation():
             observation = observation_
 
             count_epi = count_epi + 1
-            if count_epi > 200:
+            if count_epi > 500:
                 done = True
 
             # printing and rendering set up
